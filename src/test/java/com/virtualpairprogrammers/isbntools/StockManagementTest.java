@@ -43,7 +43,7 @@ class StockManagementTest {
 
 
     verify(databaseServiceMock, times(2))
-      .lookup(isbn);
+        .lookup(isbn);
   }
 
   @Test
